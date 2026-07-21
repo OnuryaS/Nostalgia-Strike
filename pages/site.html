@@ -1,0 +1,130 @@
+<!DOCTYPE html>                                <!--Tentei simplificar o máximo possível-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostalgia Strike 1.6 - Torneio PR</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script type="module" src="../js/header.js"></script>
+    <script type="module" src="../js/cep.js"></script>
+    <script type="module" src="../js/footer.js"></script>
+    <script type="module" src="../js/mapas.js"></script>
+    <script type="module" src="../js/sidebar.js"></script>
+    <script type="module" src="../js/time.js"></script>
+    <script type="module" src="../js/c4.js"></script>
+
+</head>
+<body>
+
+    <div id="container-site">
+        <div class="crt-filtro" aria-hidden="true"></div>
+
+        <cs-header></cs-header> 
+
+        <div id="page">
+
+            <sidebar-esquerda></sidebar-esquerda>
+
+            <main id="main-content">
+                <div class="dust-overlay" aria-hidden="true"></div>
+
+                <section id="inicio" class="content-section">
+                    <h2>Nostalgia Strike 1.6</h2>
+                    <p class="post-meta">Nostalgia-Strike 1.6 -- 2026</p>
+                    <div class="section-body">
+                        <p>O clássico nunca acaba! Prepare seu mouse de bolinha, pegue sua cadeira de buteco e venha disputar na lendária de_dust2.</p>
+                        <p>Este torneio foi feito para celebrar a era de ouro do Counter-Strike 1.6, reunindo os clãs mais antigos e os novos talentos em partidas competitivas 5v5 online com transmissão ao vivo no canal do youtube.</p>
+                        <p><strong>A premiação total contará com o brindes nostálgicos, a recompensa em dinheiro e o aclamado troféu da Lan Wired!</strong></p>
+                    </div>
+                </section>
+
+
+                <section id="regras" class="content-section">
+                    <h2>Regras Oficiais</h2>
+                    <div class="section-body">
+                        <ul>
+                            <li><strong>Formato:</strong> MaxRounds 12 (MR12). Ganha o time com dois rounds de saldo.</li>
+                            <li><strong>Tempo de Round:</strong> 2 minutos e 30 segundos.</li>
+                            <li><strong>C4 Timer:</strong> 35 segundos.</li>
+                            <li><strong>Empate:</strong> MR3 com $10.000 de dinheiro inicial.</li>
+                            <li><strong>Proibido:</strong> Uso de qualquer tipo de script ilegal (silent run, recoil control), cheat visual ou flashbugs no mapa.</li>
+                            <li><strong>Noob:</strong>Abusar da P90.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <pool-maps></pool-maps>
+
+                <times-inscritos></times-inscritos>
+
+                <regist-form></regist-form>
+
+                <section id="servidores" class="content-section">
+                    <h2>Ping e Latência</h2>
+                    <p class="post-meta">Nossos Servidores</p>
+                    <div class="section-body">
+                        <p>Nossos servidores estão hospedados em super-computadores de baixa latência em florionópolis (PR).</p>
+                        <ul>
+                            <li>Servidores com <strong>Tickrate 102</strong> (para rodar lisinho).</li>
+                            <li>Ping médio esperado: de 5ms a 40ms para as regiões Sul e Sudeste.</li>
+                            <li>Severs para treino serão distribuídos no e-mail cadastrado dos capitães.</li>
+                        </ul>
+                    </div>
+                    
+                </section>
+                
+                <section id="faq" class="content-section">
+                    <h2>Torneio FAQ -- Perguntas Frequentes</h2>
+                    <p class="post-meta">Atualizado: 05/07/2026</p>
+                    <div class="section-body">
+                        <p class="faq-question"><strong>P: Qual a versão do jogo exigida?</strong></p>
+                        <p class="faq-answer">R: Counter-Strike 1.6 (noSteam ou Steam) rodando estritamente o Anti-Cheat.</p>
+
+                        <p class="faq-question"><strong>P: Preciso de Anti-Cheat instalado?</strong></p>
+                        <p class="faq-answer">R: Sim, o uso do sXe Injected v17.2 atualizado é obrigatório para todos os jogadores durante os servidores oficiais do torneio.</p>
+
+                        <p class="faq-question"><strong>P: Quanto custa a inscrição do clã?</strong></p>
+                        <p class="faq-answer">R: A inscrição é 100% gratuita! Porém estamos fazendo o campeonato apenas para pessoas perto de florionópolis PR (por conta da latencia).</p>
+                    </div>
+                </section>
+
+                <section id="contato" class="content-section" style="border-bottom: none; margin-bottom: 0;">
+                    <h2>Dúvidas e Suporte</h2>
+                    <p class="post-meta">Discord</p>
+                    <div class="section-body">
+                        <p>Precisa alterar a line-up do seu time ou tirar alguma dúvida urgente sobre os horários?</p>
+                        <p>Entre no nosso canal do Discord: <strong><a href="#">clique aqui</a></strong> ou envie um e-mail direto para nossa equipe de administradores em: <strong>admin@nostalgia-strike.net</strong>.</p>
+                    </div>
+                </section>
+            </main>
+
+            <aside class="sidebar direita-sidebar">
+                
+                <cs-c4-timer></cs-c4-timer>
+
+<div class="sidebar-direita" style="margin-top: 15px;">Downloads</div>
+                <div class="sidebar-links">
+                    <a href="#"><strong>Patch v23b Protocol</strong><br>Obrigatório</a>
+                    <a href="#"><strong>sXe Injected v17.2</strong><br>Obrigatório (anti-cheat)</a>
+                    <a href="#"><strong>de_dust2 (Textura HD)</strong><br>Opcional (FPS boost)</a>
+                </div>
+
+                <div class="sidebar-direita" style="margin-top: 15px;">Patrocinadores</div>
+                <div class="patrocinador-box"></div>
+
+                <div class="sidebar-direita" style="margin-top: 15px;">Selos do Site</div>
+                <div class="selos-caixas">
+                    <div class="selo selo-ie"></div>
+                    <div class="selo selo-notepad"></div>
+                    <div class="selo selo-sxe"></div>
+                </div>
+            </aside>
+
+        </div>
+
+        <cs-footer></cs-footer>
+    </div>
+</body>
+</html>
